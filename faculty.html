@@ -13,7 +13,7 @@
         body {
             text-align: center;
             font-family: "Iosevka Web";
-            background-color: white
+            background-color: #ededed
         }
         h2 {
             color: red;
@@ -25,6 +25,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            background-color: white;
         }
         .row {
             display: grid;
@@ -36,19 +37,30 @@
         .professor-box {
             flex: 0 0 calc(25% - 20px); /* Four boxes in a row with 20px gap */
             height: 320px;
-            margin: 10px;
-            padding: 10px;
-            border: 2px solid black;
+            margin: auto;
             text-align: center;
             display: flex;
             flex-direction: column;
-            padding: 30px;
+            padding: 50px;
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
         .professor-box img {
             max-width: 100%;
             max-height: 150px;
             border-radius: 4px;
             border: 2px solid black;
+        }
+
+        .navbar{
+            background-color: #ededed;
+        }
+
+        .grid{
+            display: flex;
+            flex-direction: row;
+            margin: 60px;
+            
         }
     </style>
 </head>
@@ -74,7 +86,7 @@
         <hr>
     </header>
     <h2 style="padding-top:10px;text-align:center;color:rgb(234, 96, 17)">Faculty of IC Design & Technology</h2>
-
+    <div class="grid">
     <div class="professor-box">
         <a href="https://www.iith.ac.in/ee/abhinavkumar/"><img alt="Abhinav Kumar" src="./images/Abhinav_Kumar.jpg"></a>
         <h2>Abhinav Kumar</h2>
@@ -95,7 +107,8 @@
         <h4>Professor</h4>
         <h4>Ph.D: University of Southampton</h4>
     </div>
-
+</div>
+<div class="grid">
     <div class="professor-box">
         <a href="https://www.iith.ac.in/ee/asudeb_dutta/"><img alt="Ashudeb Dutta" src="./images/Ashudeb_Dutta.jpg"></a>
         <h2>Ashudeb Dutta</h2>
@@ -116,7 +129,8 @@
         <h4>Associate Professor</h4>
         <h4>Ph.D: IIT Delhi</h4>
     </div>
-
+</div>
+<div class="grid">
     <div class="professor-box">
         <a href="https://www.iith.ac.in/ee/ksiva/"><img alt="K Siva Kumar" src="./images/K_Siva_Kumar.jpg"></a>
         <h2>K Siva Kumar</h2>
@@ -137,7 +151,8 @@
         <h4>Assistant Professor</h4>
         <h4>Ph.D: Universita Degli Studi di Udine</h4>
     </div>
-
+</div>
+<div class="grid">
     <div class="professor-box">
         <a href="https://www.iith.ac.in/ee/seshadri/"><img alt="Seshadri Sravan Kumar V." src="./images/Seshadri_Sravan_Kumar.jpg"></a>
         <h2>Seshadri Sravan Kumar V.</h2>
@@ -158,7 +173,8 @@
         <h4>Assistant Professor</h4>
         <h4>Ph.D: IISc Bangalore</h4>
     </div>
-
+</div>
+<div class="grid">
     <div class="professor-box">
         <a href="https://www.iith.ac.in/ee/svanjari/"><img alt="Siva Rama Krishna Vanjari" src="./images/Siva_Rama_Krishna_Vanjari.jpg"></a>
         <h2>Siva Rama Krishna Vanjari</h2>
@@ -178,8 +194,8 @@
         <h2>Sushmee Badhulika</h2>
         <h4>Professor</h4>
         <h4>Ph.D: University of California</h4>
-    </div>
-
+</div>
+</div>
 </body>
 </html>
 
