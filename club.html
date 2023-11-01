@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Under Construction" />
+  <meta name="keywords" content="Under Construction, Website, Development" />
+  <meta name="author" content="Your Name" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Under Construction</title>
+  <link rel="icon" type="image/png" href="https://ee.iith.ac.in/images/favicon.png" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 100px auto;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+    }
+
+    .back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #d32f2f;
+    }
+
+    .back-button:active {
+      background-color: #b71c1c;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .back-button.animated {
+      animation: pulse 1s infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="https://ee.iith.ac.in/images/iith.png" alt="IITH Logo">
+  <h1>Under Construction</h1>
+  <p>We apologize for the inconvenience. This page is currently under construction.</p>
+  <p>Please check back later for updates.</p>
+  <button class="back-button animated" onclick="goBack()">Go Back</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+
+</html>

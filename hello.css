@@ -1,0 +1,161 @@
+.navbar li a.active {
+  border-bottom: 2px solid rgb(234, 96, 17);
+}
+
+
+.navbar {
+  background-color: white;
+  font-family: "Iosevka Web", monospace;
+  font-size: 20px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  margin-left: 10px;
+  height: 100px;
+  width: 101px;
+}
+
+.navbar li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar li a {
+  padding: 25px 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  font-family: "Iosevka Web", monospace;
+  transition: 0.2s;
+  font-size: 22px;
+}
+
+.navbar li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: rgb(234, 96, 17);
+  transition: 0.2s;
+}
+
+.navbar li a:hover::after {
+  width: 100%;
+}
+
+hr {
+  border: 2px solid rgb(234, 96, 17);
+}
+
+body {
+  text-align: center;
+  font-family: "Iosevka Web", monospace;
+}
+
+.Welcome {
+  text-align: center;
+  margin-top: 50px;
+  padding: 90px;
+}
+
+.Welcome h3 {
+  font-size: 38px;
+  color: rgb(238, 64, 11);
+  font-family: "Iosevka Web", monospace;
+}
+
+.Welcome p {
+  font-size: 20px;
+  color: black;
+  font-family: "Iosevka Web", monospace;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button, .button2 {
+  text-align: center;
+  height: 30px;
+  width: 180px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px;;
+  font-family: "Iosevka Web", monospace;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  background: linear-gradient(45deg, #007BFF, #28A745);
+  background-size: 200% 200%;
+  animation: flowBackground 4s linear infinite;
+}
+
+@keyframes flowBackground {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.button2 {
+  background: linear-gradient(45deg, #FF5733, #FFC300);
+  background-size: 200% 200%;
+  animation: flowBackground 4s linear infinite;
+}
+
+.button:hover, .button2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: pulse 1s infinite; /* Use pulse animation on hover */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button a, .button2 a{
+  text-decoration: none;
+}
+
+.nameofdept{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Iosevka Web";
+}
+.instiname{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Iosevka Web";
+}

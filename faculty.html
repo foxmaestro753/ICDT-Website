@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css" rel="stylesheet" />
+    <link rel="stylesheet" href="webmain.css">
+    <link rel="icon" type="image/png" href="https://ee.iith.ac.in/images/favicon.png"/>
+    <title>Faculty</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: "Iosevka Web";
+            background-color: white
+        }
+        h2 {
+            color: red;
+        }
+        h4 {
+            color: blue;
+        }
+        .professor-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .professor-box {
+            flex: 0 0 calc(25% - 20px); /* Four boxes in a row with 20px gap */
+            height: 320px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+        .professor-box img {
+            max-width: 100%;
+            max-height: 150px;
+            border-radius: 4px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><img src="https://ee.iith.ac.in/images/iith.png" height="100px" width="101px"></li>
+                <div class="textt">
+                    <span class="nameofdept">Department of IC Design & Technology</span><br>
+                    <span class="instiname">Indian Institute of Technology Hyderabad</span>
+                </div>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="/timetable.html">Timetable & Curriculum</a></li>
+                <li><a href="/students.html">Batches</a></li>
+                <li><a href="club.html">News</a></li>
+                <li><a href="club.html">Club</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <h2 style="padding-top:10px;text-align:center;color:rgb(234, 96, 17)">Faculty of IC Design & Technology</h2>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/abhinavkumar/"><img alt="Abhinav Kumar" src="./images/Abhinav_Kumar.jpg"></a>
+        <h2>Abhinav Kumar</h2>
+        <h4>Associate Professor</h4>
+        <h4>Ph.D: IIT Delhi</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/staditya/"><img alt="Aditya T Siripuram" src="./images/Aditya_Siripuram.jpg"></a>
+        <h2>Aditya T Siripuram</h2>
+        <h4>Assistant Professor</h4>
+        <h4>Ph.D: Stanford University</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/amit_acharyya/"><img alt="Amit Acharyya" src="./images/Amit_Acharyya.jpg"></a>
+        <h2>Amit Acharyya</h2>
+        <h4>Professor</h4>
+        <h4>Ph.D: University of Southampton</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/asudeb_dutta/"><img alt="Ashudeb Dutta" src="./images/Ashudeb_Dutta.jpg"></a>
+        <h2>Ashudeb Dutta</h2>
+        <h4>Professor</h4>
+        <h4>Ph.D: IIT Kharagpur</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/gadepall/"><img alt="G V V Sharma" src="./images/GVV.jpg"></a>
+        <h2>G V V Sharma</h2>
+        <h4>Associate Professor</h4>
+        <h4>Ph.D: IIT Bombay</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/gajendranath/"><img alt="Gajendranath Chaudhury CH." src="./images/Gajendranath_Chaudhury.jpeg"></a>
+        <h2>Gajendranath Chaudhury CH.</h2>
+        <h4>Associate Professor</h4>
+        <h4>Ph.D: IIT Delhi</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/ksiva/"><img alt="K Siva Kumar" src="./images/K_Siva_Kumar.jpg"></a>
+        <h2>K Siva Kumar</h2>
+        <h4>Professor</h4>
+        <h4>Ph.D: IISc Bangalore</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/naresh/"><img alt="Naresh Kumar Emani" src="./images/Naresh_Emani.jpg"></a>
+        <h2>Naresh Kumar Emani</h2>
+        <h4>Associate Professor</h4>
+        <h4>Ph.D: Purdue University</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/oves.badami/"><img alt="Oves Badami" src="./images/badami.png"></a>
+        <h2>Oves Badami</h2>
+        <h4>Assistant Professor</h4>
+        <h4>Ph.D: Universita Degli Studi di Udine</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/seshadri/"><img alt="Seshadri Sravan Kumar V." src="./images/Seshadri_Sravan_Kumar.jpg"></a>
+        <h2>Seshadri Sravan Kumar V.</h2>
+        <h4>Assistant Professor</h4>
+        <h4>Ph.D: IISc Bangalore</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/shishirk/"><img alt="Shishir Kumar" src="./images/Shishir_Kumar.jpg"></a>
+        <h2>Shishir Kumar</h2>
+        <h4>Assistant Professor</h4>
+        <h4>Ph.D: Trinity College, Dublin</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/shubhadeep/"><img alt="Shubhadeep Bhattacharjee" src="./images/Shubhadeep-Bhattacharjee.jpg"></a>
+        <h2>Shubhadeep Bhattacharjee</h2>
+        <h4>Assistant Professor</h4>
+        <h4>Ph.D: IISc Bangalore</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/svanjari/"><img alt="Siva Rama Krishna Vanjari" src="./images/Siva_Rama_Krishna_Vanjari.jpg"></a>
+        <h2>Siva Rama Krishna Vanjari</h2>
+        <h4>Professor</h4>
+        <h4>Ph.D: IISc Bangalore</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/sundar.vanka/"><img alt="Sundaram Vanka" src="./images/Sundaram-Vanka.jpeg"></a>
+        <h2>Sundaram Vanka</h2>
+        <h4>Associate Professor</h4>
+        <h4>Ph.D: University of Notre Dame</h4>
+    </div>
+
+    <div class="professor-box">
+        <a href="https://www.iith.ac.in/ee/sbadh/"><img alt="Sushmee Badhulika" src="./images/Sushmee_Badhulika.jpg"></a>
+        <h2>Sushmee Badhulika</h2>
+        <h4>Professor</h4>
+        <h4>Ph.D: University of California</h4>
+    </div>
+
+</body>
+</html>
+
+</body>
+</html>

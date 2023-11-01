@@ -1,0 +1,235 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+h2,
+h3,
+p,
+table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #ededed;
+    color: #333;
+}
+
+/* Style the navigation menu */
+#nav {
+    background-color: #ff8330;
+    margin: 25px;
+    padding: 1px;
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#nav li {
+    margin: 0px 20px;
+    position: relative;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Style the semester list */
+ul#semesterList {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 125, 50);
+    top: 100%;
+    /* Position below the parent li */
+    left: 0;
+    z-index: 1;
+}
+
+ul#semesterList li {
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+/* Show the semester list on hover */
+#allSubjectsOption:hover ul#semesterList {
+    display: block;
+}
+
+/* Center-align the text within list items */
+ul#semesterList li a {
+    display: block;
+    text-align: center;
+}
+
+/* Center-align the text when hovering */
+/*#allSubjectsOption:hover ul#semesterList li {
+    text-align: center;
+}*/
+
+/* ... (remaining styles) ... */
+
+/* Show the semester list on hover */
+#nav li:hover ul#semesterList {
+    display: block;
+}
+
+
+#nav a:hover {
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#subjects {
+    position: relative;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.semester {
+    margin-bottom: 20px;
+}
+
+.semester h3 {
+    margin: 10px 0;
+}
+
+#subjects table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#subjects table tbody tr:nth-child(2n + 1) {
+    background-color: rgba(225, 224, 211, 0.25);
+}
+
+#subjects table th {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(247, 211, 190);
+}
+
+#subjects table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* ... (remaining styles) ... */
+
+#subjects ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* ... (previous styles) ... */
+#batch1 {
+    margin: 0px 100px;
+}
+
+/* Style the "Batch 1" time table */
+#batch1 table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#batch1 table th,
+#batch1 table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#batch1 table th {
+    background-color: rgb(247, 211, 190);
+}
+
+/* ... (remaining styles) ... */
+#batch2 {
+    margin: 20px 100px;
+}
+
+#batch2 table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#batch2 table th,
+#batch2 table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#batch2 table th {
+    background-color: rgb(247, 211, 190);
+}
+
+/* table {
+    margin: 20px; /* Adjust the value as needed */
+
+#news {
+    margin-left: 100px;
+    margin-right: 100px;
+    /* Adjust the margin value as needed */
+}
+
+.side-column {
+    position: absolute;
+    top: 0px;
+    /* top: -300px; */
+    right: -400px;
+    width: 250px;
+    color: rgb(247, 211, 190);
+    margin: 40px 40px;
+    /* margin-left: 1000px; */
+    /* Adjust the width as needed */
+    /* height: 100%; */
+    /* This makes the column stretch to the full height of the content */
+    background-color: #006a9b;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

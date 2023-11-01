@@ -1,0 +1,31 @@
+Main home page ic.ee.iith.ac.in / icdt.iith.ac.in
+About us / Prospectus
+Facilities
+Proffs and Assitant Proffs
+Batches
+Time Table
+Club
+Merch
+News
+
+ <!-- <section id="discovery"> -->
+                <div class="side-column">
+                    <!-- Content for the side column -->
+                    <h3>Latest Discoveries in IC Design and Technology</h3>
+                    <p>Here you can find the most recent breakthroughs and innovations in the field of IC design and
+                        technology.</p>
+                    <ul>
+                        <li>Discovery 1: Description of the discovery.</li>
+                        <li>Discovery 2: Description of the discovery.</li>
+                        <li>Discovery 3: Description of the discovery.</li>
+                        <li>Discovery 4: Description of the discovery.</li>
+                        <li>Discovery 5: Description of the discovery.</li>
+                        <li>Discovery 6: Description of the discovery.</li>
+                        <li>Discovery 7: Description of the discovery.</li>
+                        <li>Discovery 8: Description of the discovery.</li>
+                        <li>Discovery 9: Description of the discovery.</li>
+                        <li>Discovery 10: Description of the discovery.</li>
+                        <!-- Add more discoveries as needed -->
+                    </ul>
+                </div>
+            <!-- </section> -->
