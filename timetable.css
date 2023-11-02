@@ -59,7 +59,7 @@ ul#semesterList li {
 }
 
 /* Show the semester list on hover */
-#allSubjectsOption:hover ul#semesterList {
+#a250tsOption:hover ul#semesterList {
     display: block;
 }
 
@@ -123,8 +123,8 @@ footer {
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -166,7 +166,7 @@ footer {
 
 /* ... (previous styles) ... */
 #batch1 {
-    margin: 0px 100px;
+    margin: 0px 250px;
 }
 
 /* Style the "Batch 1" time table */
@@ -188,7 +188,7 @@ footer {
 
 /* ... (remaining styles) ... */
 #batch2 {
-    margin: 20px 100px;
+    margin: 20px 250px;
 }
 
 #batch2 table {
