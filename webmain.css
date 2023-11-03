@@ -9,7 +9,8 @@ main {
     font-size: 22px;
     overflow: hidden;
     padding: 10px;
-  }
+}
+
 .navbar ul {
     list-style: none;
     padding: 0;
@@ -76,10 +77,6 @@ hr {
     font-family: "Iosevka Web";
 }
 
-.tb {
-    margin: 0 0 2em 0;
-    width: 100%;
-}
 
 table tbody tr {
     border: 1px solid black;
@@ -151,6 +148,25 @@ table.alt tfoot {
     border-top: 0;
 }
 
-.tb .head{
+.tb .head {
     background-color: rgb(247, 211, 190);
+}
+
+.tba {
+    height: 600px;
+    width: 800px;
+    border: 2px solid black;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.tableimg {
+
+    gap: 100px;
+}
+
+.tb {
+    margin: 0 0 2em 0;
+    width: 100%;
 }
